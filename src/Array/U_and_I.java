@@ -8,7 +8,7 @@ public class U_and_I {
 	public static void main(String[] args) 
 	{
 		Scanner sc=new Scanner(System.in);  
-		System.out.print("Enter the number of elements you want to store in array1: ");    
+		System.out.print("Enter the number of elements you want to store in array_1: ");    
 		int n=sc.nextInt();  
 		int[] arr1 = new int[n];  
 		System.out.println("Enter the elements of the array1: ");  
@@ -18,7 +18,7 @@ public class U_and_I {
 		}  
 		
 		
-		System.out.print("Enter the number of elements you want to store in array2: ");    
+		System.out.print("Enter the number of elements you want to store in array_2: ");    
 		int m=sc.nextInt();  
 		int[] arr2 = new int[m];  
 		System.out.println("Enter the elements of the array2: ");  
