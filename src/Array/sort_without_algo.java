@@ -15,7 +15,12 @@ public class sort_without_algo {
 		System.out.println("Enter the elements of the array: ");  
 		for(int i=0; i<n; i++)  
 		{  
-			sort012[i]=sc.nextInt();  
+			sort012[i]=sc.nextInt();
+			while(sort012[i]>2)
+			{
+				System.out.println("try again please");
+				sort012[i]=sc.nextInt();
+			}
 		}  
 		
 		//******************** logic of sorting without any sorting algorithm ******************
@@ -27,6 +32,8 @@ public class sort_without_algo {
             count0++;
             else if(sort012[i]==1)
             count1++;
+            else
+            	continue;
         }
         int a=count0+count1;
         for(int i=0;i<sort012.length;i++)
