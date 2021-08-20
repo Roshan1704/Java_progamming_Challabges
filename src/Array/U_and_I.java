@@ -26,7 +26,6 @@ public class U_and_I {
 		{  
 			arr2[j]=sc.nextInt();  
 		}
-		int count=0;
 		
 		//******** Intersection program**************
 		
@@ -37,7 +36,6 @@ public class U_and_I {
 			{
 				if(arr1[i]==arr2[j])
 				{
-					count++;
 					if(i==(n-1))
 					{
 						System.out.print(arr1[i]);
