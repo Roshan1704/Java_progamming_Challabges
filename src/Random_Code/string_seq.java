@@ -1,9 +1,10 @@
-package test;
+package Random_Code;
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class string_seq {
+public class string_seq 
+{
 
 	public static void main(String[] args) 
 	{
