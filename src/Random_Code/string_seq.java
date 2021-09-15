@@ -9,7 +9,7 @@ public class string_seq
 	public static void main(String[] args) 
 	{
 		Scanner sc=new Scanner(System.in);  
-		System.out.print("Enter the number of elements you want to store: ");    
+		System.out.print("Enter the sequence");    
 		String str=sc.nextLine();
 		System.out.println(string_seq(str));
 
