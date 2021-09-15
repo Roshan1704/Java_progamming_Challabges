@@ -13,15 +13,14 @@ public class reverse_wbw {
 			k++;
 			//System.out.println(ch[j]);
 		}
-		str = String.valueOf(ch);
-		System.out.println(str);
+		String str2 = String.valueOf(ch);
+		System.out.println(str2);
 		
-		String[] str_rev= str.split(" ");
-		for(int j=(str_rev.length)-1;j>=0;j--)
-		{
-			System.out.print(str_rev[j]);
-			System.out.print(" ");
-		}
+		String[] str_rev= str2.split(" ");
+		/*
+		 * for(int j=(str_rev.length)-1;j>=0;j--) { System.out.print(str_rev[j]);
+		 * System.out.print(" "); }
+		 */
 		
 	}
 
